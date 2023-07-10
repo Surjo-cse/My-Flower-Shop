@@ -1,3 +1,7 @@
+/* this is header section style */
+*{
+    margin: 0px;
+}
 /* this is some common style */
 .primary-btn{
     background-color: #E55473;
@@ -6,6 +10,7 @@
     border: 0;
     color: white;
     font-size: 20px;
+    margin-top: 30px;
 } 
 .header-div{
     display: flex;
@@ -15,17 +20,18 @@
     padding-top: 50px;
 }
 
-/* this is header section style */
-
-.header-title{
+.primary-heading{
     font-size: 80px;
     color: #272727;
+    padding-bottom: 30px;
 }
-.header-description{
+.primary-description{
     width: 640px;
     color:  #27272799;
     font-size: 18px;
 }
+/* header section style ends here */
+/* Hot deal style starts from here */
 .hotdeal{
     margin-top: 130px;
     text-align: center;
@@ -38,17 +44,18 @@
 span{
     color: #E55473;
 }
-
-    
+/* Hot deal style ends here */
+/* Instagram section style starts from here */
 .instagram-section{
     margin-top: 130px;
     text-align: center;
 }  
 
 .insta-img{
+
     display: flex;
     max-width: 1440px;
-    margin: 0px auto;
+    margin: 40px auto;
     justify-content: space-around;
 }  
 .insta-description{
@@ -56,26 +63,60 @@ span{
     font-size: 18px;
     text-align: center;
 }
+/* Instagram section style ends here */
+/* subscribe section style starts from here */
 input{
     padding: 22px 520px 22px 22px;
     border-radius: 10px;
+    margin-top: 30px;
 }
 .subscribe{
-    /* margin-top: 130px; */
     text-align: center;
     background-image: url("../Flower Asset/10.png");
     background-repeat: no-repeat;
     padding: 130px 0px;
-    /* margin: 240px 130px 240px 470px;   */
     max-width: 1440px;
     max-height: 450px;
     margin: 130px 450px;
 } 
 .btn{
     margin-left: 10px;
+} 
+/* subscribe section style ends here */
+/* footer section style starts from here */
+footer{
+    background-color: #111010;
+    text-align: center;
+    color: white;
+    padding: 128px 0px;
+}
+#shop{
+    color: white;
+}
+.feature{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 130px 240px;
 }   
-    
-    
+.feature-img{
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 110px 80px;
+    border-radius: 300px 300px 0px 0px;
+} 
+.feature-img2{
+    background-color: rgba(5, 151, 160, 0.15);;
+}
+.feature-img3{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.feature-section{
+    text-align: center;
+    margin-top: 130px;
+}
+.feature-description{
+    margin: 0px 0px 0px 880px;
+}
+ 
     
     
     
