@@ -1,5 +1,5 @@
 /* this is some common style */
-.btn{
+.primary-btn{
     background-color: #E55473;
     padding: 20px 40px;
     border-radius: 10px;
@@ -7,28 +7,73 @@
     color: white;
     font-size: 20px;
 } 
-
-/* this is header section style */
 .header-div{
     display: flex;
     align-items: center;
     background-color: #FDEEF1;
     justify-content: space-around;
     padding-top: 50px;
-    
 }
+
+/* this is header section style */
+
 .header-title{
     font-size: 80px;
     color: #272727;
 }
 .header-description{
+    width: 640px;
     color:  #27272799;
     font-size: 18px;
 }
-   
+.hotdeal{
+    margin-top: 130px;
+    text-align: center;
+    padding: 100px 150px;
+}   
+.deal-description{
+    text-align: center;
+    padding-left: 200px;
+}
+span{
+    color: #E55473;
+}
+
     
-    
-    
+.instagram-section{
+    margin-top: 130px;
+    text-align: center;
+}  
+
+.insta-img{
+    display: flex;
+    max-width: 1440px;
+    margin: 0px auto;
+    justify-content: space-around;
+}  
+.insta-description{
+    color: #272727;
+    font-size: 18px;
+    text-align: center;
+}
+input{
+    padding: 22px 520px 22px 22px;
+    border-radius: 10px;
+}
+.subscribe{
+    /* margin-top: 130px; */
+    text-align: center;
+    background-image: url("../Flower Asset/10.png");
+    background-repeat: no-repeat;
+    padding: 130px 0px;
+    /* margin: 240px 130px 240px 470px;   */
+    max-width: 1440px;
+    max-height: 450px;
+    margin: 130px 450px;
+} 
+.btn{
+    margin-left: 10px;
+}   
     
     
     
