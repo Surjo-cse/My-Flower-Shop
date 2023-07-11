@@ -31,6 +31,42 @@
     font-size: 18px;
 }
 /* header section style ends here */
+/* feature section style starts from here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E55473;
+    padding: 15px 50px;
+    align-items: center;
+    border-bottom: 5px solid black;
+}
+.nav-title{
+    display: flex;
+}
+.feature{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 130px 240px;
+}   
+.feature-img{
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 110px 80px;
+    border-radius: 300px 300px 0px 0px;
+} 
+.feature-img2{
+    background-color: rgba(5, 151, 160, 0.15);;
+}
+.feature-img3{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.feature-section{
+    text-align: center;
+    margin-top: 130px;
+}
+.feature-description{
+    margin: 0px 0px 0px 880px;
+}
+/* feature style ends here */
 /* Hot deal style starts from here */
 .hotdeal{
     margin-top: 130px;
@@ -68,7 +104,7 @@ span{
 input{
     padding: 22px 520px 22px 22px;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 30px ;
 }
 .subscribe{
     text-align: center;
@@ -93,28 +129,18 @@ footer{
 #shop{
     color: white;
 }
-.feature{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 130px 240px;
-}   
-.feature-img{
-    background-color: rgba(167, 33, 98, 0.15);
-    padding: 110px 80px;
-    border-radius: 300px 300px 0px 0px;
-} 
-.feature-img2{
-    background-color: rgba(5, 151, 160, 0.15);;
+.nav-option{
+    padding: 10px 20px;
+    color: white;
+    font-size: 25px;
 }
-.feature-img3{
-    background-color: rgba(71, 125, 17, 0.15);
+.nav-option:hover{
+    background-color: #111010;
+    border-radius: 10px;
 }
-.feature-section{
-    text-align: center;
-    margin-top: 130px;
-}
-.feature-description{
-    margin: 0px 0px 0px 880px;
+nav:hover{
+    background-image: url("../Flower Asset/miranda-mossburg-G4n3JPUNQgg-unsplash.jpg");
+    background-repeat: no-repeat;
 }
  
     
