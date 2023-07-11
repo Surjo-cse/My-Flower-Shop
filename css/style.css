@@ -31,7 +31,7 @@
     font-size: 18px;
 }
 /* header section style ends here */
-/* feature section style starts from here */
+/* extra section style starts from here */
 nav{
     display: flex;
     justify-content: space-between;
@@ -43,6 +43,21 @@ nav{
 .nav-title{
     display: flex;
 }
+.nav-option{
+    padding: 10px 20px;
+    color: white;
+    font-size: 25px;
+}
+.nav-option:hover{
+    background-color: #111010;
+    border-radius: 10px;
+}
+nav:hover{
+    background-image: url("../Flower Asset/miranda-mossburg-G4n3JPUNQgg-unsplash.jpg");
+    background-repeat: no-repeat;
+}
+/* extra section style ends here */
+/* feature section style starts from here */
 .feature{
     display: flex;
     justify-content: space-evenly;
@@ -50,7 +65,7 @@ nav{
 }   
 .feature-img{
     background-color: rgba(167, 33, 98, 0.15);
-    padding: 110px 80px;
+    padding: 110px 80px 20px 80px;
     border-radius: 300px 300px 0px 0px;
 } 
 .feature-img2{
@@ -65,6 +80,13 @@ nav{
 }
 .feature-description{
     margin: 0px 0px 0px 880px;
+}
+.item-name{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 170px;
+    text-decoration: underline;
+    font-size: 50px;
 }
 /* feature style ends here */
 /* Hot deal style starts from here */
@@ -129,19 +151,7 @@ footer{
 #shop{
     color: white;
 }
-.nav-option{
-    padding: 10px 20px;
-    color: white;
-    font-size: 25px;
-}
-.nav-option:hover{
-    background-color: #111010;
-    border-radius: 10px;
-}
-nav:hover{
-    background-image: url("../Flower Asset/miranda-mossburg-G4n3JPUNQgg-unsplash.jpg");
-    background-repeat: no-repeat;
-}
+
  
     
     
